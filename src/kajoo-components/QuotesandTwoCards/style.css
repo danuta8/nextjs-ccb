@@ -1,0 +1,208 @@
+.quotesand-two-cards-container-default {
+  background-color: #ffffff;
+  color: #a0a0a0;
+  display: flex;
+  flex: 0 0 auto;
+  height: 200px;
+  min-height: 200px;
+  min-width: 300px;
+  padding: 10px;
+  width: auto;
+}
+.quotesand-two-cards-root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.quotesand-two-cards-container {
+  align-items: flex-start;
+  width: 100%;
+}
+.quotesand-two-cards-container,.quotesand-two-cards-container1 {
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  position: relative;
+}
+.quotesand-two-cards-container1 {
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 0 45px 0 0;
+}
+.quotesand-two-cards-image {
+  background-color: rgba(217, 217, 217, 1);
+  border-color: transparent;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  height: 430px;
+  object-fit: cover;
+  position: relative;
+}
+.quotesand-two-cards-image,.quotesand-two-cards-text {
+  flex-grow: 0;
+  margin: 0 0 16px;
+  width: 365px;
+}
+.quotesand-two-cards-text {
+  align-self: auto;
+  color: rgba(34, 34, 34, 1);
+  font-family: Inter;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  line-height: 150.52273273468018%;
+  text-align: left;
+  text-decoration: none;
+}
+.quotesand-two-cards-container2 {
+  align-items: flex-start;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: 19px;
+  position: relative;
+  width: 151px;
+}
+.quotesand-two-cards-text1 {
+  align-self: auto;
+  color: rgba(21, 88, 151, 1);
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 0px;
+}
+.quotesand-two-cards-image1 {
+  border-color: transparent;
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 16px;
+  left: 135px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+.quotesand-two-cards-container3 {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+}
+.quotesand-two-cards-container3,.quotesand-two-cards-image2 {
+  border-color: transparent;
+  box-sizing: border-box;
+  flex-grow: 0;
+  position: relative;
+}
+.quotesand-two-cards-image2 {
+  flex-shrink: 0;
+  height: 430px;
+  object-fit: cover;
+}
+.quotesand-two-cards-image2,.quotesand-two-cards-text2 {
+  margin: 0 0 15px;
+  width: 365px;
+}
+.quotesand-two-cards-text2 {
+  align-self: auto;
+  color: rgba(34, 34, 34, 1);
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  line-height: 150.52273273468018%;
+  text-align: left;
+  text-decoration: none;
+}
+.quotesand-two-cards-container4 {
+  align-items: flex-start;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: 19px;
+  position: relative;
+  width: 255px;
+}
+.quotesand-two-cards-text3 {
+  align-self: auto;
+  color: rgba(21, 88, 151, 1);
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  line-height: normal;
+  position: absolute;
+  text-align: left;
+  text-decoration: none;
+  top: 0px;
+}
+.quotesand-two-cards-image3 {
+  border-color: transparent;
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 16px;
+  left: 239px;
+  object-fit: cover;
+  position: absolute;
+  top: 2px;
+  width: 16px;
+}
+.quotesand-two-cards-container5 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: 100px;
+  width: 100%;
+}
+.quotesand-two-cards-text4 {
+  align-self: auto;
+  color: rgba(34, 34, 34, 1);
+  flex-grow: 0;
+  font-family: Inter;
+  font-size: 36px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  line-height: 150.52273273468018%;
+  margin: 0 45px 0 0;
+  text-align: left;
+  text-decoration: none;
+  width: 471px;
+}
+.quotesand-two-cards-container6 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  height: 100px;
+  justify-content: flex-start;
+  width: 100%;
+}
