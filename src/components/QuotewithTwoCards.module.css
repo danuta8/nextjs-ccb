@@ -142,3 +142,21 @@
   font-size: 16px;
   font-weight: 700;
 }
+@media(max-width: 768px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+  .container,.container1 {
+    width: 100%;
+  }
+  .link {
+    align-self: flex-start;
+  }
+  .container2 {
+    width: 100%;
+  }
+  .link1 {
+    align-self: flex-start;
+  }
+}
