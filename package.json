@@ -41,9 +41,7 @@
     "next-localization": "^0.12.0",
     "nprogress": "~0.2.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "@kajoo-ai/sitecore-react": "latest",
-    "@kajoo-ai/sitecore-nextjs": "latest"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^1.21.8",
