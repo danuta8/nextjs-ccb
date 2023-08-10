@@ -69,17 +69,17 @@
   font-size: 25px;
   margin-top: 5px;
 }
-.text,.text1 {
+.text,.text01 {
   font-weight: 400;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
 }
-.text1,.text2 {
+.text01,.text02 {
   font-size: 18px;
 }
-.text2 {
+.text02 {
   font-weight: 700;
   text-align: center;
 }
@@ -103,23 +103,22 @@
   min-width: auto;
   width: 250px;
 }
-.text3 {
+.text03 {
   font-size: 25px;
   margin-top: 5px;
 }
-.text3,.text4 {
+.text03,.text04 {
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
 }
-.text4 {
+.text04 {
+  font-size: 18px;
   font-weight: 400;
 }
-.text4,.text5 {
+.text05 {
   font-size: 18px;
-}
-.text5 {
   font-weight: 700;
   text-align: center;
 }
@@ -143,21 +142,59 @@
   min-width: auto;
   width: 250px;
 }
-.text6 {
+.text06 {
   font-size: 25px;
   margin-top: 5px;
 }
-.text6,.text7 {
+.text06,.text07 {
   font-weight: 400;
   margin-bottom: 5px;
   margin-left: 5px;
   margin-right: 5px;
   text-align: center;
 }
-.text7,.text8 {
+.text07,.text08 {
   font-size: 18px;
 }
-.text8 {
+.text08 {
+  font-weight: 700;
+  text-align: center;
+}
+.container4 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  margin: 5px;
+  min-width: unset;
+  width: auto;
+}
+.image3 {
+  border: 6px solid rgba(149, 0, 58, 1);
+  border-radius: 50%;
+  height: 250px;
+  margin: 15px;
+  min-height: auto;
+  min-width: auto;
+  width: 250px;
+}
+.text09 {
+  font-size: 25px;
+  margin-top: 5px;
+}
+.text09,.text10 {
+  font-weight: 400;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+.text10,.text11 {
+  font-size: 18px;
+}
+.text11 {
   font-weight: 700;
   text-align: center;
 }

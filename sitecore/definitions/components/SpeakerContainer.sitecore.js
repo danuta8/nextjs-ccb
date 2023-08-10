@@ -90,6 +90,32 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Google',
       },
+      {
+        name: 'src7',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
+      },
+      {
+        name: 'alt7',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-imag',
+      },
+      {
+        name: 'text18',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Jane Doe',
+      },
+      {
+        name: 'text19',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Chief Executive Officer\n',
+      },
+      {
+        name: 'text20',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Google',
+      },
     ],
   })
 }

@@ -29,12 +29,12 @@ const SpeakerContainer = (props) => {
           <Text
             text={props.fields.text3}
             tag="span"
-            className={` ${styles['text1']} ${styles['paragraph-default']} `}
+            className={` ${styles['text01']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.fields.text2}
             tag="span"
-            className={` ${styles['text2']} ${styles['paragraph-default']} `}
+            className={` ${styles['text02']} ${styles['paragraph-default']} `}
           />
         </Container>
         <Container
@@ -47,15 +47,15 @@ const SpeakerContainer = (props) => {
           />
           <Text
             text={props.fields.text12}
-            className={` ${styles['text3']} ${styles['paragraph-default']} `}
+            className={` ${styles['text03']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.fields.text16}
-            className={` ${styles['text4']} ${styles['paragraph-default']} `}
+            className={` ${styles['text04']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.fields.text17}
-            className={` ${styles['text5']} ${styles['paragraph-default']} `}
+            className={` ${styles['text05']} ${styles['paragraph-default']} `}
           />
         </Container>
         <Container
@@ -68,15 +68,36 @@ const SpeakerContainer = (props) => {
           />
           <Text
             text={props.fields.text13}
-            className={` ${styles['text6']} ${styles['paragraph-default']} `}
+            className={` ${styles['text06']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.fields.text14}
-            className={` ${styles['text7']} ${styles['paragraph-default']} `}
+            className={` ${styles['text07']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.fields.text15}
-            className={` ${styles['text8']} ${styles['paragraph-default']} `}
+            className={` ${styles['text08']} ${styles['paragraph-default']} `}
+          />
+        </Container>
+        <Container
+          className={` ${styles['container4']} ${styles['container-default']} `}
+        >
+          <Image
+            src={props.fields.src7}
+            alt={props.fields.alt7}
+            className={` ${styles['image3']} ${styles['image-default']} `}
+          />
+          <Text
+            text={props.fields.text18}
+            className={` ${styles['text09']} ${styles['paragraph-default']} `}
+          />
+          <Text
+            text={props.fields.text19}
+            className={` ${styles['text10']} ${styles['paragraph-default']} `}
+          />
+          <Text
+            text={props.fields.text20}
+            className={` ${styles['text11']} ${styles['paragraph-default']} `}
           />
         </Container>
       </Container>
@@ -138,6 +159,14 @@ SpeakerContainer.defaultProps = {
     text17: 'Google',
     tag13: 'span',
     text12: 'John Doe',
+    src7: 'https://app.kajoo.ai/icons/default-imag.svg',
+    alt7: 'default-kajoo-imag',
+    text18: 'Jane Doe',
+    tag14: 'span',
+    text19: 'Chief Executive Officer\n',
+    tag15: 'span',
+    text20: 'Google',
+    tag16: 'span',
   },
   rootClassName: '',
 }

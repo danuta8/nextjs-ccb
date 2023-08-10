@@ -1,0 +1,49 @@
+.container-default {
+  background-color: #ffffff;
+  color: #a0a0a0;
+  display: flex;
+  flex: 0 0 auto;
+  height: 200px;
+  min-height: 200px;
+  min-width: 300px;
+  padding: 10px;
+  width: auto;
+}
+.root {
+  flex-direction: row;
+  height: 400px;
+}
+.root,.container {
+  display: flex;
+  width: 100%;
+}
+.container {
+  align-items: center;
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: auto;
+  min-height: unset;
+}
+.container1 {
+  min-width: unset;
+}
+.container1,.container2 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 100px;
+  width: 25%;
+}
+.container2 {
+  min-width: auto;
+}
+.container3,.container4 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 100px;
+  min-width: unset;
+  width: 25%;
+}
