@@ -1,11 +1,10 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import styles from './NavMenu.module.css'; // Import your CSS module
 
 const NavMenu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuButtonRef = useRef<HTMLButtonElement | null>(null);
-  const menuItemsRef = useRef<HTMLUListElement | null>(null);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -16,15 +15,14 @@ const NavMenu: React.FC = () => {
     menuButtonRef.current?.focus();
   };
 
-  const handleKeyPress = (event: React.KeyboardEvent) => {
+  const handleKeyPress = useCallback((event: KeyboardEvent) => {
     if (event.key === 'Escape') {
       closeMenu();
     }
-  };
+  }, []);
 
   useEffect(() => {
     if (isMenuOpen) {
-      menuItemsRef.current?.firstChild?.firstChild?.focus();
       document.addEventListener('keydown', handleKeyPress);
     } else {
       document.removeEventListener('keydown', handleKeyPress);
@@ -33,7 +31,7 @@ const NavMenu: React.FC = () => {
     return () => {
       document.removeEventListener('keydown', handleKeyPress);
     };
-  }, [isMenuOpen]);
+  }, [isMenuOpen, handleKeyPress]);
 
   return (
     <nav className={styles.navMenu}>
@@ -48,7 +46,6 @@ const NavMenu: React.FC = () => {
       </button>
       <ul
         className={`${styles.menuItems} ${isMenuOpen ? styles.open : ''}`}
-        ref={menuItemsRef}
         role="menu"
         aria-label="Main Menu"
       >
