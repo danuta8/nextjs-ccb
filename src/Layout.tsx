@@ -4,6 +4,7 @@ import { Placeholder, LayoutServiceData, Field, HTMLLink } from '@sitecore-jss/s
 import { getPublicUrl } from '@sitecore-jss/sitecore-jss-nextjs/utils';
 import Navigation from 'src/Navigation';
 import Scripts from 'src/Scripts';
+import NavMenu from 'components/NavMenu';
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore editors.
 // If you're not supporting Sitecore editors, you can remove this.
@@ -36,6 +37,7 @@ const Layout = ({ layoutData, headLinks }: LayoutProps): JSX.Element => {
       </Head>
 
       <Navigation />
+      <NavMenu />
       {/* root placeholder for the app, which we add components to using route data */}
       <div className="container">{route && <Placeholder name="jss-main" rendering={route} />}</div>
     </>

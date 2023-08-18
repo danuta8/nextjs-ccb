@@ -1,0 +1,32 @@
+/* NavMenu.module.css */
+
+.navMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem;
+  }
+  
+  .menuToggle {
+    display: none; /* Hide on larger screens */
+  }
+  
+  .menuItems {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .menuItems.open {
+    display: flex; /* Show on smaller screens when menu is open */
+  }
+  
+  .menuItems li {
+    margin: 0.5rem 0;
+  }
+  
+  /* Add more styles as needed for responsiveness */
+  
