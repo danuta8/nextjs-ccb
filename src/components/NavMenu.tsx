@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useCallback } from 'react';
 import Link from 'next/link';
-import styles from './NavMenu.module.css'; // Import your CSS module
+import styles from 'components/NavMenu.module.css'; // Import your CSS module
 
 const NavMenu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
