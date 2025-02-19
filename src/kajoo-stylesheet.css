@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Lato');
+:root {
+  --color-red: #b24a4aff;
+  --size-large: 144px;
+  --size-small: 48px;
+  --radius-full: 9999px;
+  --radius-none: 0px;
+  --size-medium: 96px;
+  --size-xsmall: 8px;
+  --radius-small: 4px;
+  --size-x-large: 192px;
+  --spacing-unit: 16px;
+  --radius-medium: 6px;
+  --size-xx-large: 288px;
+  --radius-x-large: 12px;
+  --radius-x-small: 2px;
+  --size-max-width: 1440px;
+  --spacing-two-units: 32px;
+  --spacing-five-units: 80px;
+  --spacing-four-units: 64px;
+  --spacing-one-and-half-units: 24px;
+}
+
+.text-default {
+  height: fit-content;
+  overflow: hidden;
+  font-size: 14px;
+  min-width: 30px;
+  font-family: Arial;
+  -webkit-user-drag: none;
+}
+.container-default {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+}
